@@ -176,3 +176,48 @@ classDiagram
     MarketingSection --> PersonalizedCampaigns
 
  ```
+
+# Routes Documentation for SmartReach Marketing Hub
+
+## 1. **POST /createOffer**
+This route is used to create a new personalized campaign offer with customer and coupon details.
+
+**Request Body**:
+```json
+{
+  "customerDetails": {
+    "target": "AllOrderTypes", 
+    "dateOptions": "LastWeek", 
+    "timeRange": { "startTime": "2024-12-01T00:00", "endTime": "2024-12-07T23:59" },
+    "orderTypes": ["Dining", "Parcel"],
+    "location": { "state": "California", "city": "Los Angeles" },
+    "foodType": "Veg",
+    "totalBillRange": { "minPrice": 100, "maxPrice": 500 },
+    "previewOption": true,
+    "submitButton": true
+  },
+  "couponDetails": {
+    "couponName": "HolidayDiscount",
+    "validityDates": { "start": "2024-12-01", "end": "2024-12-31" },
+    "applicabilityForMembership": true,
+    "numberOfTimesUsed": "Unlimited",
+    "numberOfTimesUsedPerPhone": "Custom",
+    "discountOnFoodOrdering": 20,
+    "minOrderValue": 200,
+    "sendMessage": "Scheduled"
+  }
+}
+```
+## 2. **GET /viewOffers**
+This route is used to fetch and view the available personalized campaign offers.
+
+**Query Parameters**:
+```
+- **type** (required): The type of offers you want to view. Options include:
+  - `running`: Active campaigns that are currently running.
+  - `scheduled`: Upcoming campaigns that are scheduled to start in the future.
+  - `previous`: Past campaigns that have ended.
+```
+Example: To view running offers, use the query parameter `?type=running`.
+
+**Example Request**:
