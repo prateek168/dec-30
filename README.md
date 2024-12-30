@@ -35,7 +35,46 @@ Targets existing customers with tailored campaigns.
   - **Total Bill Range**: Min Price | Max Price.
   - **Preview Option**: View before submission.
   - **Submit**: Finalize offer.
- 
+  <br>
+  
+  ```
+   const customerDetailsSchema = new mongoose.Schema({
+      target: {
+          type: String,
+          enum: ['AllOrderTypes', 'SpecializedDiningCustomers'],
+          required: true
+      },
+      dateOptions: {
+          type: String,
+          enum: ['LastWeek', 'LastMonth', 'CustomDateRange'],
+          required: true
+      },
+      timeRange: {
+          startTime: { type: String, required: true },
+          endTime: { type: String, required: true }
+      },
+      orderTypes: {
+          type: [String],
+          enum: ['Dining', 'Parcel', 'Zomato/Swiggy', 'SelfOnlineDelivery'],
+          required: true
+      },
+      location: {
+          state: { type: String, required: true },
+          city: { type: String, required: true }
+      },
+      foodType: {
+          type: String,
+          enum: ['Veg', 'NonVeg'],
+          required: true
+      },
+      totalBillRange: {
+          minPrice: { type: Number, required: true },
+          maxPrice: { type: Number, required: true }
+      },
+      previewOption: { type: Boolean, required: true },
+      submitButton: { type: Boolean, required: true } });
+  ```
+  
 - **Coupon Details**:
   - **Coupon Name**: Name of the offer.
   - **Validity Dates**: Start & End dates.
