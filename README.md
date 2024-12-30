@@ -114,7 +114,7 @@ Targets existing customers with tailored campaigns.
     ```
   
 
-```mermaid
+ ```mermaid
 classDiagram
     MarketingSection --> PersonalizedCampaigns
     MarketingSection --> Refil
@@ -229,4 +229,4 @@ classDiagram
     PersonalizedCampaigns --> ViewOffers
     PersonalizedCampaigns --> CreateOffers
 
-```
+ ```
