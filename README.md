@@ -35,7 +35,7 @@ Targets existing customers with tailored campaigns.
   - **Total Bill Range**: Min Price | Max Price.
   - **Preview Option**: View before submission.
   - **Submit**: Finalize offer.
-  
+ 
 - **Coupon Details**:
   - **Coupon Name**: Name of the offer.
   - **Validity Dates**: Start & End dates.
@@ -44,7 +44,36 @@ Targets existing customers with tailored campaigns.
   - **Discount**: Percentage off.
   - **Min Order Value**: Minimum required order.
   - **Send Message**: Immediately | Scheduled.
+   <br>
  
+   
+    ```
+    const couponDetailsSchema = new mongoose.Schema({
+    couponName: { type: String, required: true },
+    validityDates: {
+        start: { type: Date, required: true },
+        end: { type: Date, required: true }
+    },
+    applicabilityForMembership: { type: Boolean, required: true },
+    numberOfTimesUsed: {
+        type: String,
+        enum: ['Unlimited', 'Custom'],
+        required: true
+    },
+    numberOfTimesUsedPerPhone: {
+        type: String,
+        enum: ['Unlimited', 'Custom'],
+        required: true
+    },
+    discountOnFoodOrdering: { type: Number, required: true },
+    minOrderValue: { type: Number, required: true },
+    sendMessage: {
+        type: String,
+        enum: ['Immediately', 'Scheduled'],
+        required: true
+    }});
+    ```
+  
 
 ```mermaid
 classDiagram
