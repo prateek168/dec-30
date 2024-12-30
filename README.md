@@ -116,19 +116,11 @@ Targets existing customers with tailored campaigns.
 
  ```mermaid
 classDiagram
-    MarketingSection --> PersonalizedCampaigns
-    MarketingSection --> Refil
-    MarketingSection --> WhatsAppChat
-    MarketingSection --> NewCustomerCampaignsAdmin
-    MarketingSection --> NewCustomerCampaignsInfluencer
-    MarketingSection --> Membership
-    MarketingSection --> LoyaltyPrograms
-    MarketingSection --> ReferralPrograms
-    MarketingSection --> AutomatedOffersBirthday
-    MarketingSection --> AutomatedOffersAnniversary
-    MarketingSection --> AutomatedOffersInactiveCustomers
-
-    class MarketingSection {
+    class PersonalizedCampaigns {
+        +ViewOffers()
+        +CreateOffers()
+    }
+      class MarketingSection {
         +PersonalizedCampaigns
         +NewCustomerCampaignsAdmin
         +NewCustomerCampaignsInfluencer
@@ -142,57 +134,16 @@ classDiagram
         +WhatsAppChat
     }
 
-    class PersonalizedCampaigns {
-        +ViewOffers()
-        +CreateOffers()
+
+    class ViewOffers {
+        +Running()
+        +Scheduled()
+        +Previous()
     }
 
-    class Refil {
-        +SMS25k
-        +SMS50k
-        +SMS100k
-        +Custom
-    }
-
-    class WhatsAppChat {
-        +SendMessage()
-    }
-
-    class NewCustomerCampaignsAdmin {
-        +CreateCampaign()
-        +TargetingAdmin()
-    }
-
-    class NewCustomerCampaignsInfluencer {
-        +CreateCampaign()
-        +TargetingInfluencer()
-    }
-
-    class Membership {
-        +JoinMembership()
-        +RenewMembership()
-    }
-
-    class LoyaltyPrograms {
-        +EarnPoints()
-        +RedeemPoints()
-    }
-
-    class ReferralPrograms {
-        +ReferFriend()
-        +TrackReferrals()
-    }
-
-    class AutomatedOffersBirthday {
-        +SendBirthdayOffer()
-    }
-
-    class AutomatedOffersAnniversary {
-        +SendAnniversaryOffer()
-    }
-
-    class AutomatedOffersInactiveCustomers {
-        +SendOfferToInactiveCustomers()
+    class CreateOffers {
+        +CustomerDetails
+        +CouponDetails
     }
 
     class CouponDetails {
@@ -218,15 +169,10 @@ classDiagram
         +SubmitButton()
     }
 
-    class ViewOffers {
-        +Running()
-        +Scheduled()
-        +Previous()
-    }
-
-    CreateOffers --> CustomerDetails
-    CreateOffers --> CouponDetails
     PersonalizedCampaigns --> ViewOffers
     PersonalizedCampaigns --> CreateOffers
+    CreateOffers --> CustomerDetails
+    CreateOffers --> CouponDetails
+    MarketingSection --> PersonalizedCampaigns
 
  ```
