@@ -46,4 +46,119 @@ Targets existing customers with tailored campaigns.
   - **Send Message**: Immediately | Scheduled.
  
 
-[![](https://mermaid.ink/img/pako:eNqVV99v4jgQ_ldQnu50pUdo6bZ5OInCVuppKajp7kq79MFNhmDVsSPHaTdb-r_v2CnBJoEWXpx4vvnmp8fhxYtEDF7gRYzk-ZiSRJJ0zjv4mxD5CIryJIRIUcE73e5_nRnIXHDC6G-IRyTNCE14vgd_CwvK9si_L4nKh1k2wnUP7AaeR0WuRAqytjqMU8oP1LnmC1YAj0DuUZxA-oBhLmm2B_RFlISpciaFztg7KQApCfsAdFigu0RBPF2gTn5JpVrGpPy4xpBz-oQrkQcoXXOCsidYZws9rJRNTzQpXiqp_v2zpx-M_J3C7cRsF8oAtwtjNlsLYSTtiTeivYluQzQS2wZqSaTtzPogmPdm47-6aW_NrJP7bxSeK8N__W1tjySgS65gi9s443CFk7A_eHQ3Br2tDb_n7FRhthqwo3PtAI8nkOckgR2-7ewYh6cKcg1w4r8jMjH9arQOsLLpuYNNbVR32Nu0rsP9v6B8I3K4b4HDc1O2xbvV_Q75ZyL5DA2ofIs4BkhdQbM_nJPj0BrhlaRYSTcZkkSPa81dzDsOXqNH1gID-xiXdUQbdJbsAMbGeW7wGtydaAB38I9EkQk-BkUoc8kqyQ1JIeiESmJL2Qcdp0BMVTlG1_Kgo5dbwhOwJ1GWMRqRB8oQdyXkpnGCzqUQDIgzcQstnS7uaAr51xzitdGfXzmjKcUMrKpYrnlWqPt9qjinZkvB4eMUY5pHouBqyq-EiKcyBq0XdCpqe95TbqQYfwEtcmuY1Nav0xRiihli5SqMlhAXDOL79mq8VautHtXJrlmHjBlP7soM8lWYQUSryTymHOV13Z0w9RTO9I2Z1zxfSK6-Azyu9MNEcLV8S1JdU5tB59hs1vqhIlLp7e5nHuvVhm88rPGVe6sZkRGw1Q_d3OLf8JkmCWYH2GKKteIwBqZPR3nvXKsR0b7bphWsRtheNkxXUJusYd8gWd0IjosTiVCEXVLG3sKpSvkTCzyTNILuhPwyD7bOTMKTvuFMCp1JExYP2GCXhVJi13zf3I3u7Cq4TojLtu4SZ9dYF0XzJNvXq_ma2mqjXSj76FeY9htegzfev4e07cy5d-ShIymhMX7Rm7jnnlpCCnMvwMcYFqRgau7N-StCCU67sOSRFyhZwJEnRZEsvWCB0xvfiixG5rd_BGtIRvgPIexXL3jxfnlB9-S4d3J2enre7w9Oe_7F2cWRV3qB7_vHA__ThY9bn3rnp_7g9cj7bRj8Y79_fj7wz_onvbO-j6jXPwo1G48?type=png)](https://mermaid.live/edit#pako:eNqVV99v4jgQ_ldQnu50pUdo6bZ5OInCVuppKajp7kq79MFNhmDVsSPHaTdb-r_v2CnBJoEWXpx4vvnmp8fhxYtEDF7gRYzk-ZiSRJJ0zjv4mxD5CIryJIRIUcE73e5_nRnIXHDC6G-IRyTNCE14vgd_CwvK9si_L4nKh1k2wnUP7AaeR0WuRAqytjqMU8oP1LnmC1YAj0DuUZxA-oBhLmm2B_RFlISpciaFztg7KQApCfsAdFigu0RBPF2gTn5JpVrGpPy4xpBz-oQrkQcoXXOCsidYZws9rJRNTzQpXiqp_v2zpx-M_J3C7cRsF8oAtwtjNlsLYSTtiTeivYluQzQS2wZqSaTtzPogmPdm47-6aW_NrJP7bxSeK8N__W1tjySgS65gi9s443CFk7A_eHQ3Br2tDb_n7FRhthqwo3PtAI8nkOckgR2-7ewYh6cKcg1w4r8jMjH9arQOsLLpuYNNbVR32Nu0rsP9v6B8I3K4b4HDc1O2xbvV_Q75ZyL5DA2ofIs4BkhdQbM_nJPj0BrhlaRYSTcZkkSPa81dzDsOXqNH1gID-xiXdUQbdJbsAMbGeW7wGtydaAB38I9EkQk-BkUoc8kqyQ1JIeiESmJL2Qcdp0BMVTlG1_Kgo5dbwhOwJ1GWMRqRB8oQdyXkpnGCzqUQDIgzcQstnS7uaAr51xzitdGfXzmjKcUMrKpYrnlWqPt9qjinZkvB4eMUY5pHouBqyq-EiKcyBq0XdCpqe95TbqQYfwEtcmuY1Nav0xRiihli5SqMlhAXDOL79mq8VautHtXJrlmHjBlP7soM8lWYQUSryTymHOV13Z0w9RTO9I2Z1zxfSK6-Azyu9MNEcLV8S1JdU5tB59hs1vqhIlLp7e5nHuvVhm88rPGVe6sZkRGw1Q_d3OLf8JkmCWYH2GKKteIwBqZPR3nvXKsR0b7bphWsRtheNkxXUJusYd8gWd0IjosTiVCEXVLG3sKpSvkTCzyTNILuhPwyD7bOTMKTvuFMCp1JExYP2GCXhVJi13zf3I3u7Cq4TojLtu4SZ9dYF0XzJNvXq_ma2mqjXSj76FeY9htegzfev4e07cy5d-ShIymhMX7Rm7jnnlpCCnMvwMcYFqRgau7N-StCCU67sOSRFyhZwJEnRZEsvWCB0xvfiixG5rd_BGtIRvgPIexXL3jxfnlB9-S4d3J2enre7w9Oe_7F2cWRV3qB7_vHA__ThY9bn3rnp_7g9cj7bRj8Y79_fj7wz_onvbO-j6jXPwo1G48)
+```mermaid
+classDiagram
+    MarketingSection --> PersonalizedCampaigns
+    MarketingSection --> Refil
+    MarketingSection --> WhatsAppChat
+    MarketingSection --> NewCustomerCampaignsAdmin
+    MarketingSection --> NewCustomerCampaignsInfluencer
+    MarketingSection --> Membership
+    MarketingSection --> LoyaltyPrograms
+    MarketingSection --> ReferralPrograms
+    MarketingSection --> AutomatedOffersBirthday
+    MarketingSection --> AutomatedOffersAnniversary
+    MarketingSection --> AutomatedOffersInactiveCustomers
+
+    class MarketingSection {
+        +PersonalizedCampaigns
+        +NewCustomerCampaignsAdmin
+        +NewCustomerCampaignsInfluencer
+        +Membership
+        +LoyaltyPrograms
+        +ReferralPrograms
+        +AutomatedOffersBirthday
+        +AutomatedOffersAnniversary
+        +AutomatedOffersInactiveCustomers
+        +Refil
+        +WhatsAppChat
+    }
+
+    class PersonalizedCampaigns {
+        +ViewOffers()
+        +CreateOffers()
+    }
+
+    class Refil {
+        +SMS25k
+        +SMS50k
+        +SMS100k
+        +Custom
+    }
+
+    class WhatsAppChat {
+        +SendMessage()
+    }
+
+    class NewCustomerCampaignsAdmin {
+        +CreateCampaign()
+        +TargetingAdmin()
+    }
+
+    class NewCustomerCampaignsInfluencer {
+        +CreateCampaign()
+        +TargetingInfluencer()
+    }
+
+    class Membership {
+        +JoinMembership()
+        +RenewMembership()
+    }
+
+    class LoyaltyPrograms {
+        +EarnPoints()
+        +RedeemPoints()
+    }
+
+    class ReferralPrograms {
+        +ReferFriend()
+        +TrackReferrals()
+    }
+
+    class AutomatedOffersBirthday {
+        +SendBirthdayOffer()
+    }
+
+    class AutomatedOffersAnniversary {
+        +SendAnniversaryOffer()
+    }
+
+    class AutomatedOffersInactiveCustomers {
+        +SendOfferToInactiveCustomers()
+    }
+
+    class CouponDetails {
+        +CouponName: String
+        +ValidityDates: DateRange
+        +ApplicabilityForMembership: Boolean
+        +NumberOfTimesUsed: String[Unlimited|CustomInput]
+        +NumberOfTimesUsedPerPhone: String[Unlimited|CustomInput]
+        +DiscountOnFoodOrdering: Number
+        +MinOrderValue: Number
+        +SendMessage: String[Immediately|Scheduled]
+    }
+
+    class CustomerDetails {
+        +Target: String[AllOrderTypes|SpecializedDiningCustomers]
+        +DateOptions: String[LastWeek|LastMonth|CustomDateRange]
+        +TimeRange: String[StartTime-EndTime]
+        +OrderTypes: String[Dining|Parcel|Zomato/Swiggy|SelfOnlineDelivery]
+        +Location: String[State|City]
+        +FoodType: String[Veg|NonVeg]
+        +TotalBillRange: Number[MinPrice-MaxPrice]
+        +PreviewOption()
+        +SubmitButton()
+    }
+
+    class ViewOffers {
+        +Running()
+        +Scheduled()
+        +Previous()
+    }
+
+    CreateOffers --> CustomerDetails
+    CreateOffers --> CouponDetails
+    PersonalizedCampaigns --> ViewOffers
+    PersonalizedCampaigns --> CreateOffers
+
+```
